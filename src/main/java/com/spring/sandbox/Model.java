@@ -1,10 +1,11 @@
-package com.sandbox;
+package com.spring.sandbox;
+
+import com.sun.istack.NotNull;
 
 import javax.persistence.*;
-import javax.validation.constraints.NotNull;
 
 @Entity
-@Table(name = "foo")
+@Table(name = "users")
 public class Model {
     @Id
     @GeneratedValue(strategy = GenerationType.IDENTITY)
